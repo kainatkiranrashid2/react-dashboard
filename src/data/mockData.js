@@ -1,5 +1,4 @@
-import { tokens } from "../theme";
-
+import { tokens } from "../themes";
 export const mockDataTeam = [
   {
     id: 1,
