@@ -42,7 +42,11 @@ const Sidebar = () => {
 
   return (
     <Box
+      // position="fixed"
       sx={{
+        "& .pro-sidebar": {
+          overflowY: "none",
+        },
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
         },
@@ -102,7 +106,7 @@ const Sidebar = () => {
                   color={colors.grey[100]}
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}>
-                  Ed Roh
+                  Kainat
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin
